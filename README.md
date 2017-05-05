@@ -1,11 +1,11 @@
-#Pixel Painter
+# Pixel Painter
 
 For this application, you will be creating a pixel painting game!
 
-##Before you begin
+## Before you begin
 Please `fork` and `clone` this repository.
 
-##Set-up your files
+## Set-up your files
 
 Please create the following files:
 
@@ -15,9 +15,9 @@ Please create the following files:
 
 Create link tags for your CSS stylesheet and javascript file in your html document and ensure all files are connected.
 
-##HTML
+## HTML
 
-###Part I
+### Part I
 1. Create a header containing the name of the application using a **header** tag.
 
 2. Create a container for your entire application using a **div** tag and set the id attribute to `entireContainer`.
@@ -47,12 +47,12 @@ Create link tags for your CSS stylesheet and javascript file in your html docume
 7. Within the `selectedColorNameContainer`,
   1. Create a container using a **div** tag and set the id attribute to `selectedColorName`.
 
-####End of Part I
+#### End of Part I
 Do not continue until you have finished **Part I** of both the Javascript and CSS portion.
 
-##Javascript
+## Javascript
 
-###Part I
+### Part I
 1. Create a function called **changeColorOnClick** and set the parameter as `idName`.
 
 2. Within the function **changeColorOnClick**,
@@ -66,17 +66,17 @@ Do not continue until you have finished **Part I** of both the Javascript and CS
   2. Store the value of the method `window.getComputedStyle(element,null).getPropertyValue("background-color")` in a variable called `style`.
   3. Use the DOM method to reference an element by its ID to retrieve the background color of the element with id `selectedColorName` and set its value to `style`
 
-####End of Part I
+#### End of Part I
 Do not continue until you have finished **Part I** of both the Javascript and CSS portion.
 
-##CSS
+## CSS
 
-###Part I
+### Part I
 1. Set the background color of each pixel within the `paletteContainer` to it's respective color.
 
-####End of Part I
+#### End of Part I
 
-##End of Part I
+## End of Part I
 Good job on getting this far!
 
 Extra Features:
