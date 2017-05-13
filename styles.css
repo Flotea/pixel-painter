@@ -1,3 +1,33 @@
-body {
-  background-color: lavender;
+div{
+  border-style: solid;
+  border-width: 1px;
 }
+
+#red{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#yellow{
+  background-color: yellow;
+}
+#green{
+  background-color: green;
+}
+#blue{
+  background-color: blue;
+}
+
+body {
+  background-color: #ffcccc;
+}
+.palette{
+    width: 100px;
+  height: 100px;
+}
+.canvas{
+    width: 100px;
+  height: 100px;
+}
+

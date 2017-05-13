@@ -2,31 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <header>Pixel Painter</header>
-  <title>Document</title>
+  <title>Pixl Painter</title>
+
   <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
+
   <h1> Pixel Painter </h1>
-    <p id="demo">
-    <div id="entireContainer">
-        <div class="palette" id="red" onclick="getBackgroundColor()"></div>
-        <div class="palette" id="orange" onclick="getBackgroundColor()"></div>
-        <div class="palette" id="yellow" onclick="getBackgroundColor()"></div>
-        <div class="palette" id="green" onclick="getBackgroundColor()"></div>
-        <div class="palette" id="blue" onclick="getBackgroundColor()"></div>
+  <div id="entireContainer">
+    <div id="paletteContainer">
+      <div class="palette" id="red" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palette" id="orange" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palette" id="yellow" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palette" id="green" onclick="getBackgroundColor(this.id)"></div>
+      <div class="palette" id="blue" onclick="getBackgroundColor(this.id)"></div>
     </div>
-  </p>
+  
 
 
-  <div id="paletContainer">
-    <div class="canvas" id="canvas1"></div>
-    <div class="canvas" id="canvas2"></div>
-    <div class="canvas" id="canvas3"></div>
-    <div class="canvas" id="canvas4"></div>
-    <div class="canvas" id="canvas5"></div>
-
-  <div id="cavasContainer">
+    <div id="canvasContainer">
+      <div class="canvas" id="canvas1" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas2" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas3" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas4" onclick="changeColorOnClick(this.id)"></div>
+      <div class="canvas" id="canvas5" onclick="changeColorOnClick(this.id)"></div>
+    </div> 
+    <div id ="selectedColorNameContainer">
+      <div id="selectedColorNameContainer"></div>
+    </div>
+  </div>
 </body>
+<script src="app.js"></script>
 </html>
